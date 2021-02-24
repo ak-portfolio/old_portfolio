@@ -1,0 +1,184 @@
+/*---------------------------------------------------*/
+/*	15) ARLO MEDIA QUERIES (FOR SMALL DEVIVES)
+/*---------------------------------------------------*/
+
+
+@media (max-width: 1300px) {
+	.arlo_tm_about_wrap .leftbox{padding-right: 0px;}
+	.php-t::after{
+		position: absolute;
+		bottom: 8.5rem;
+		width:40%;
+		left: 30%;
+	}
+}
+@media (max-width: 1190px) {
+	.arlo_tm_services_wrap .list_wrap ul li{width: 50%;}
+	#arlo_tm_popup_blog .close{right: 0px;}
+	.arlo_tm_list_wrap > ul.total > li{width: 50%;}
+	.arlo_tm_contact_wrap_all .leftbox{width: 100%;padding-right: 0px;margin-bottom: 19px;}
+	.arlo_tm_contact_wrap_all .rightbox{width: 100%;float: none;}
+	.arlo_tm_preloader{display: none;}
+	.skill-title::after{
+		bottom: 7rem;
+		width: 75%;
+		left: 2rem;
+	}
+	.query::after{
+		width: 50%;
+		bottom: 6.5rem;
+		left: 25%;
+	}
+	.sass-t::after{
+		bottom: 8rem;
+		width: 40%;
+		left: 5rem;
+	}
+	.php-t::after{
+		position: absolute;
+		bottom: 8.5rem;
+		width:40%;
+		left: 30%;
+	}
+	.jsc::after{
+		bottom: 6rem;
+	}
+
+}
+@media (max-width: 1075px) {
+  .arlo_tm_leftpart_wrap .menu_list_wrap{display: none;}
+	.arlo_tm_about_wrap{flex-direction: column;}
+	.arlo_tm_about_wrap .rightpart .info_list ul li{width: 100%;}
+	.arlo_tm_about_wrap .leftbox{width: 40%;padding-right: 0px;}
+	.arlo_tm_title_holder h3{font-size: 60px;}
+	.arlo_tm_about_wrap .leftbox .about_image_wrap{width: 100%;}
+	.arlo_tm_about_wrap .rightpart{width: 100%;}
+	..arlo_tm_mini_title_holder{width: 60%;}
+	.arlo_tm_skills_wrap .inner_wrap{flex-direction: column;}
+	.arlo_tm_skills_wrap .leftbox{padding-right: 0px;width: 100%;margin-bottom: 60px;}
+	.arlo_tm_skills_wrap .rightbox{width: 100%;padding-left: 0px;}
+	.arlo_tm_main_demos_list_wrap ul{margin: 0px;}
+	.arlo_tm_main_demos_list_wrap ul li{width: 100%;padding: 0px;}
+	.arlo_tm_portfolio_single_wrap .details_wrap{flex-direction: column;}
+	.arlo_tm_portfolio_single_wrap .details_wrap .leftbox{padding-right: 0px;width: 100%;margin-bottom: 50px;}
+	.arlo_tm_portfolio_single_wrap .details_wrap .rightbox{width: 100%;}
+	.arlo_tm_mobile_header_wrap{display: block;}
+	.arlo_tm_about_wrap .author_wrap{display: flex;justify-content: flex-start;padding-left: 1rem;}
+	.arlo_tm_about_wrap .rightbox{width: 50%;padding-left: 1rem;}
+	.fa-music{left: 0;}
+	.br_sp{display: block;}
+	.arlo_tm_about_wrap .about_short_contact_wrap{width: 100%;}
+	.arlo_tm_title_holder{padding: 40px 0;}
+	.arlo_tm_mini_title_holder h4{line-height: 1.6;font-size: 22px;}
+	.arlo_tm_about_wrap .definition p{font-size: 16px;line-height: 1.6;}
+	.about_short_contact_wrap ul li{text-align: center;}
+	.arlo_tm_about_wrap .about_short_contact_wrap ul li p{text-align: center; position: static; font-size: 12px;}
+	.last-label{vertical-align: top;}
+	.arlo_tm_totop{right: 25px;}
+	.fa-sass {left: 30%;}
+	.arlo_tm_portfolio_list > li{width: 50%;}
+	.d{right: 10%;}
+	.video1{width: 100%;}
+	.skill-title::after{
+		bottom: 7rem;
+		width: 70%;
+		left: 15%;
+	}
+	.boot::after{
+		bottom: 7rem;
+	}
+	.sass-t::after{
+		bottom: 7rem;
+		width: 30%;
+		left: 35%;
+	}
+	.query::after,.php-t::after{
+		position: absolute;
+		bottom: 5rem;
+		width:40%;
+		left: 30%;
+	}
+	.jsc::after{
+		bottom: 5rem;
+	}
+}
+@media (max-width: 768px) {
+	.arlo_tm_hero_header_wrap .name_holder h3{font-size: 40px;}
+	.arlo_tm_hero_header_wrap .text_typing p{font-size: 21px;}
+	.arlo_tm_title_holder h3{font-size: 45px;}
+	.arlo_tm_title_holder:before{top: -2px;}
+	.arlo_tm_services_wrap .list_wrap ul{margin: 0px;}
+	.arlo_tm_services_wrap .list_wrap ul li{width: 100%;padding-left: 0px;}
+	.arlo_tm_counter_list li{width: 50%;}
+	.arlo_tm_counter_list li .inner{padding: 45px 15px 48px 15px;}
+	.arlo_tm_portfolio_list > li{width: 50%;}
+	.arlo_tm_list_wrap > ul.total{margin: 0px;}
+	.arlo_tm_list_wrap > ul.total > li{width: 100%;padding-left: 0px;}
+	.arlo_tm_about_wrap .about_short_contact_wrap ul li{width: 100%; text-align: left; height: 60px;}
+	.arlo_tm_about_wrap .about_short_contact_wrap ul li p{position: relative; font-size: 14px;}
+	.arlo_tm_totop{right: 20px;bottom: 10px;}
+	.arlo_tm_totop.opened{bottom: 20px;}
+	.arlo_tm_portfolio_single_wrap .title_holder h3{font-size: 45px;}
+	.fa-music{left: 200px;}
+	.arlo_tm_about_wrap .author_wrap{display: block;}
+	.arlo_tm_about_wrap .rightbox{width: 60%; padding: 0 20px 0 40px;}
+	.arlo_tm_mini_title_holder{width: 100%; float: none;}
+	.about_img{display: none;}
+	.d{right: 20%;}
+	.secret{bottom: 50%; right: 25%; width: 200px;}
+	.arlo_tm_about_wrap .buttons_wrap{position: absolute; top: 80%; right: 2%;}
+	.skill-title::after{
+		bottom: 6rem;
+		width: 70%;
+		left: 15%;
+	}
+	.boot::after{
+		bottom: 7rem;
+	}
+	.sass-t::after{
+		bottom: 7rem;
+		width: 30%;
+		left: 35%;
+	}
+	.query::after,.php-t::after{
+		position: absolute;
+		bottom: 5rem;
+		width:40%;
+		left: 30%;
+	}
+	.jsc::after{
+		bottom: 5rem;
+	}
+
+}
+@media (max-width: 650px) {
+	.arlo_tm_hero_header_wrap .name_holder h3{font-size: 30px;}
+	.arlo_tm_hero_header_wrap .text_typing p{font-size: 18px;}
+	.arlo_tm_title_holder:before{display: none;}
+	.arlo_tm_title_holder h3{padding-left: 0px;}
+	.arlo_tm_title_holder span{padding-left: 0px;}
+	.arlo_tm_counter_list li{width: 100%;}
+	.arlo_tm_counter_list li .inner{padding: 0px 0px 35px 0px;}
+	.arlo_tm_portfolio_list{margin: 0px;}
+	.arlo_tm_portfolio_list > li{width: 100%;padding-left: 0px;}
+	.arlo_tm_counter_wrap{padding: 94px 0px 48px 0px;}
+	.wave{font-size: 12px;}
+	.arlo_tm_about_wrap .author_wrap{display: block;}
+	.arlo_tm_title_holder.portfolio {padding-bottom: 40px;}
+	.arlo_tm_portfolio_filter li {margin: 0;width: 40%;}
+	.arlo_tm_portfolio_list > li{width: 100%;}
+	.arlo_tm_about_wrap .leftbox{width: 80%;}
+	.arlo_tm_about_wrap .rightbox{width: 100%; padding: 30px 0; margin: 0 auto;}
+	.arlo_tm_mini_title_holder h4{text-align: center; font-size: 28px;}
+	.arlo_tm_about_wrap .definition p{padding: 0 40px;}
+	.arlo_tm_about_wrap .buttons_wrap {position: static;}
+	.arlo_tm_about_wrap .about_short_contact_wrap ul li{height: auto; margin: 0 15%;}
+	.last-label{vertical-align: baseline;}
+	.br_button{display: none;}
+	.arlo_tm_about_wrap .buttons_wrap ul li:last-child{width: 80%;}
+	.arlo_tm_about_wrap .buttons_wrap ul li a{width: 100%; text-align: center;}
+	.boot::after{bottom: 5.5rem;}
+	.jsc::after{bottom: 4.5rem;}
+	.fa-sass{left: 35%;}
+	.secret{bottom: 50%; right: 30%; width: 260px;}
+}

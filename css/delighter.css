@@ -1,0 +1,120 @@
+
+/* 基本のスタイル */
+.arlo_tm_title_holder.delighter {
+	transition: all .75s ease-out;
+	transform:translatey(-20%);
+	opacity: 0;
+ }
+
+/* スタート時のスタイル */
+ .arlo_tm_title_holder.delighter.started {
+	transform: none;
+	opacity: 1;
+ }
+
+ .leftlang.delighter {
+	  transform:translate(-10%);
+	  opacity:0;
+	  transition: all .75s ease-out;
+	 }
+.leftlang.delighter.started {
+	transform:none;
+	opacity:1;
+}
+
+
+ .arlo_tm_mini_title_holder.delighter {
+	transition: all 1s ease-out;
+	transform:translatey(20%);
+	opacity: 0;
+ }
+
+/* スタート時のスタイル */
+ .arlo_tm_mini_title_holder.delighter.started {
+	transform: none;
+	opacity: 1;
+ }
+
+ .definition.delighter {
+	transition: all 1s ease-out;
+	transform:translatey(20%);
+	opacity: 0;
+ }
+
+/* スタート時のスタイル */
+ .definition.delighter.started {
+	transform: none;
+	opacity: 1;
+ }
+
+ .about-list.delighter li { opacity: 0; transform: translatey(100%); transition: all .3s ease-out; }
+ .about-list.delighter.started li { opacity: 1; transform: none; }
+ .about-list.delighter.started li,
+ .about-list.delighter.started li { transition: all .5s ease-out .1s; }
+ .about-list.delighter.started li,
+ .about-list.delighter.started li { transition: all .5s ease-out .5s; }
+ .about-list.delighter.started li,
+ .about-list.delighter.started li { transition: all .5s ease-out .9s; }
+ .about-list.delighter.started li,
+ .about-list.delighter.started li { transition: all .5s ease-out 1.3s; }
+
+ .anchor.delighter{
+    transition: all 1s ease-out;
+	transform:translatey(20%);
+	opacity: 0;
+ }
+
+/* スタート時のスタイル */
+.anchor.delighter.started {
+	transform: none;
+	opacity: 1;
+ }
+ .skill-title.delighter{
+    transition: all 1s ease-out;
+	transform:translatey(20%);
+	opacity: 0;
+ }
+
+.skill-title.delighter.started {
+	transform: none;
+	opacity: 1;
+ }
+ .skill-title.delighter{
+    transition: all 1s ease-out;
+	transform:translatey(20%);
+	opacity: 0;
+ }
+
+.skill-title.delighter.started {
+	transform: none;
+	opacity: 1;
+ }
+ .skill.delighter{
+    transition: all 1s ease-out;
+	transform:translatey(20%);
+	opacity: 0;
+ }
+
+.skill.delighter.started {
+	transform: none;
+	opacity: 1;
+ }
+.lang.delighter{transition: all 1s ease-out; }
+ .html.delighter { transform: translate(-300%,-250%); opacity: 0;}
+ .bs.delighter { transform: translatey(-370%); opacity: 0;}
+ .jq.delighter { transform: translate(200%,-170%); opacity: 0;}
+ .js.delighter { transform: translate(-300%,200%); opacity: 0;}
+ .sass.delighter { transform: translatey(200%); opacity: 0;}
+ .php.delighter { transform: translate(200%,200%);opacity: 0; }
+
+.html.delighter.started {transform: none; opacity: 1;}
+.bs.delighter.started {transform: none; opacity: 1;}
+.jq.delighter.started {transform: none;opacity: 1; }
+.php.delighter.started { transform: none;opacity: 1; }
+.js.delighter.started { transform: none; opacity: 1;}
+.sass.delighter.started {transform: none; opacity: 1;}
+
+.arlo_tm_title_holder.delighter{
+
+}
+.arlo_tm_title_holder.delighter.started {transform: none; opacity: 1;}
