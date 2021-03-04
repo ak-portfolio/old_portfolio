@@ -289,8 +289,7 @@ unset($_SESSION['content']);
 									<div class="title text-muted mx-auto">
 											<h3 class="skill-title php-t text-center py-3">PHP</h3>
 											<p class="skill-d ">
-											Sassを導入し、CSSのコーディングを効率化できます。
-												Koalaを使用し、トップページテキスト内の波の表現を作成しました。</p>
+											Cyberduckを使用し、PHPでコンタクトフォームを作成しました。ローカル環境開発やリモートサイトのデバッグを学びました。</p>
 									</div>
 							</div>
 							</div>
